@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Choose Language</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+    }
+    .flags {
+      display: flex;
+      gap: 20px;
+    }
+    .flag {
+      width: 150px;
+      cursor: pointer;
+      transition: transform 0.2s ease-in-out;
+    }
+    .flag:hover {
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body>
+<div class="flags">
+  <img src="uk_flag.jpg" alt="UK Flag" class="flag" onclick="chooseLanguage('uk')">
+  <img src="ro_flag.jpg" alt="RO Flag" class="flag" onclick="chooseLanguage('ro')">
+</div>
+<script>
+  // Check if a language cookie exists and redirect if it does
+  window.onload = function() {
+    const language = getCookie('language');
+    if (language) {
+      redirectToPage(language);
+    }
+  };
+
+  // Function to set the cookie
+  function setCookie(name, value, days) {
+    const date = new Date();
+    date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+    const expires = "expires=" + date.toUTCString();
+    document.cookie = `${name}=${value};${expires};path=/`;
+  }
+
+  // Function to get a cookie by name
+  function getCookie(name) {
+    const decodedCookie = decodeURIComponent(document.cookie);
+    const cookies = decodedCookie.split(';');
+    for (let i = 0; i < cookies.length; i++) {
+      let c = cookies[i].trim();
+      if (c.indexOf(name + "=") == 0) {
+        return c.substring(name.length + 1);
+      }
+    }
+    return null;
+  }
+
+  // Function to handle language selection
+  function chooseLanguage(lang) {
+    setCookie('language', lang, 0); // Set a cookie valid for 30 days
+    redirectToPage(lang);
+  }
+
+  // Function to redirect to the appropriate page
+  function redirectToPage(lang) {
+    if (lang === 'uk') {
+      window.location.href = 'en/index.html';
+    } else if (lang === 'ro') {
+      window.location.href = 'en/index.html';
+    }
+  }
+
+  function clearCookie(name) {
+    // Set the cookie with an expired date
+    document.cookie = name + "=;expires=Thu, 01 Jan 1970 00:00:00 UTC;path=/";
+  }
+
+</script>
+</body>
+</html>
