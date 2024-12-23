@@ -1,0 +1,113 @@
+/* General Styles */
+body {
+  background-color: #f7f6f6;
+}
+
+.dark-color {
+  background-color: rgb(191, 5, 27);
+  color: #fff;
+}
+
+/* Hamburger Button */
+.navbar-toggler-icon {
+  background-image: none;
+}
+.custom-toggler {
+  color: #fff; /* Matches navbar title text color */
+  font-size: 1.5rem;
+  border: none;
+}
+
+/* Page Links - Desktop */
+.navbar-nav .nav-link {
+  color: #fff !important;
+  font-size: 1.1rem; /* Larger font size */
+  padding: 5px 15px; /* Adjust horizontal padding for spacing */
+  margin-right: 15px; /* Horizontal spacing between links */
+  border-radius: 5px; /* Keeps hover box square */
+  transition: background-color 0.3s ease;
+}
+.navbar-nav .nav-link:hover {
+  background-color: rgb(191, 5, 27, 0.1);
+}
+
+/* Side Menu */
+.side-menu {
+  position: fixed;
+  top: 0;
+  left: -200px; /* Hidden off-screen initially */
+  height: 100%;
+  width: 200px; /* Adjust width here */
+  background-color: rgb(191, 5, 27);
+  color: #fff;
+  transition: left 0.3s ease;
+  padding: 10px;
+  z-index: 1050;
+}
+.side-menu.open {
+  left: 0; /* Slide in */
+}
+.side-menu a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  margin: 10px 0; /* Adds vertical spacing between links */
+  padding: 8px 12px; /* Adjust padding for larger hit area */
+  border-radius: 15px; /* Keeps rounded hover effect */
+  transition: background-color 0.3s ease;
+}
+.side-menu a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Close Button */
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 1.5rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Responsive Title Text */
+.navbar-brand {
+  font-size: 1.5rem; /* Default font size */
+  transition: font-size 0.3s ease;
+}
+
+.calendar-container {
+  position: relative;
+  width: 100%; /* Use full width of the parent */
+  max-width: 800px; /* Restrict max width for larger screens */
+  padding-top: 75%; /* Aspect ratio: height is 75% of width */
+  overflow: hidden;
+}
+
+.calendar-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* Language Buttons */
+.language-buttons {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space between buttons */
+}
+
+.language-buttons .language-icon {
+  width: 30px; /* Adjust width for icons */
+  height: 20px; /* Adjust height for icons */
+  cursor: pointer; /* Make icons clickable */
+  transition: transform 0.3s ease;
+}
+
+.language-buttons .language-icon:hover {
+  transform: scale(1.2); /* Slight zoom on hover */
+}
+
