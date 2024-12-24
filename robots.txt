@@ -1,0 +1,4 @@
+UserAgent: *
+Disallow: /about.html
+Disallow: /services.html
+Disallow: /contact.html
