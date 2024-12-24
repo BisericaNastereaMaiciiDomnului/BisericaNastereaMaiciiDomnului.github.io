@@ -38,7 +38,6 @@
   // Check if a language cookie exists and redirect if it does
   window.onload = function() {
     const language = getCookie('language');
-    clearCookie('language')
     if (language) {
       redirectToPage(language);
     }
