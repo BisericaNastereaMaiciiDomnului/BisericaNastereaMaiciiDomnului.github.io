@@ -38,6 +38,7 @@
   // Check if a language cookie exists and redirect if it does
   window.onload = function() {
     const language = getCookie('language');
+    clearCookie('language')
     if (language) {
       redirectToPage(language);
     }
@@ -66,7 +67,7 @@
 
   // Function to handle language selection
   function chooseLanguage(lang) {
-    setCookie('language', lang, 0); // Set a cookie valid for 30 days
+    setCookie('language', lang, 30); // Set a cookie valid for 30 days
     redirectToPage(lang);
   }
 
