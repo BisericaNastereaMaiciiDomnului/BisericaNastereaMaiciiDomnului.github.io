@@ -2,12 +2,11 @@
 <html lang="en">
 <head>
   <link rel="icon" href="../image_assets/nasterea_maicii_domnului_2.jpeg" type="image/jpeg">
-  <link rel="alternate" hreflang="en" href="https://parohia-ortodoxa-carlisle.co.uk/en/index">
-  <link rel="alternate" hreflang="ro" href="https://parohia-ortodoxa-carlisle.co.uk/ro/index">
-  <link rel="canonical" href="https://parohia-ortodoxa-carlisle.co.uk/en/index">
+  <link rel="alternate" hreflang="en" href="https://parohia-ortodoxa-carlisle.co.uk/en/index.html">
+  <link rel="canonical" hreflang="ro" href="https://parohia-ortodoxa-carlisle.co.uk/ro/index.html">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Orthodox Christian Parish of The Nativity of the Mother God from Carlisle (CA1 1LZ).">
+  <meta name="description" content="Orthodox Christian Parish of The Nativity of the Most Holy Mother God from Carlisle (CA1 1LZ).">
   <title>Carlisle Orthodox Parish</title>
   <link href="../bootstrap.css" rel="stylesheet"> <!-- Loading the bootstrap CSS file -->
   <link rel="stylesheet" href="../mystyle.css"> <!-- Linking the external CSS file -->
@@ -25,9 +24,9 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav me-auto">
         <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
-        <li class="nav-item"><a class="nav-link" href="services.html">Program</a></li>
-        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About Our Parish</a></li>
+        <li class="nav-item"><a class="nav-link" href="services.html">Liturgical Program</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
       </ul>
     </div>
 
@@ -35,7 +34,7 @@
     <div class="language-buttons ms-3">
       <a style="padding-right: 5px" href="../ro/index.html"><img src="../image_assets/combined_flags.jpg" alt="Language toggle button" class="language-icon"></a>
     </div>
-    <a class="navbar-brand ms-auto text-white" id="navbarTitle" href="index.html">Nativity of The Mother of God</a>
+    <a class="navbar-brand ms-auto text-white" id="navbarTitle" href="index.html">Nativity of The Most Holy Mother of God</a>
   </div>
 </nav>
 
@@ -45,9 +44,9 @@
   <span class="close-btn" id="closeMenu">&times;</span>
   <h4>Menu</h4>
   <a href="index.html">Home</a>
-  <a href="about.html">About Us</a>
-  <a href="services.html">Program</a>
-  <a href="contact.html">Contact</a>
+  <a href="about.html">About Our Parish</a>
+  <a href="services.html">Liturgical Program</a>
+  <a href="contact.html">Contact Us</a>
 </div>
 
 <!-- Header and Content -->
@@ -98,7 +97,7 @@
 
     // Adjust font size based on screen width and text length
     if (screenWidth < 768) { // Mobile
-      fontSize = Math.min(24, Math.max(14, 120 / titleLength));
+      fontSize = (0.8*screenWidth)/(titleLength*0.7);
     }
 
     title.style.fontSize = fontSize + 'px';

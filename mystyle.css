@@ -111,3 +111,54 @@ body {
   transform: scale(1.2); /* Slight zoom on hover */
 }
 
+.header-background {
+  background-image: url('image_assets/nasterea_maicii_domnului_1.jpg'); /* Replace with the actual path */
+  background-size: cover; /* Ensures the image covers the entire area */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents repeating the image */
+  height: 300px; /* Adjust the height as needed */
+  display: flex; /* Optional: allows you to align content inside */
+  align-items: center; /* Center content vertically */
+  justify-content: center; /* Center content horizontally */
+  color: #fff; /* Text color to contrast with the background */
+}
+
+/* Styling for the Month Buttons (Border-Only) */
+.month-btn {
+  background-color: transparent; /* Transparent background */
+  color: rgb(191, 5, 27); /* Red text to match border */
+  font-size: 1.2rem; /* Slightly larger font */
+  padding: 10px 20px; /* Padding for a button-like appearance */
+  border: 2px solid rgb(191, 5, 27); /* Red border */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease; /* Smooth hover and click effects */
+  display: block; /* Make buttons full-width for consistency */
+  width: 100%; /* Ensure button spans the parent container width */
+  text-align: left; /* Align text to the left */
+}
+
+.month-btn:hover {
+  background-color: rgb(191, 5, 27); /* Fill background with red on hover */
+  color: #fff; /* Change text color to white */
+  transform: scale(1.02); /* Slightly enlarge on hover */
+}
+
+.month-btn:active {
+  background-color: rgb(155, 0, 20); /* Darker shade on click */
+  color: #fff; /* Keep text white */
+  transform: scale(0.98); /* Slightly shrink on click */
+}
+
+.list-group-item {
+  border: none; /* Remove item borders */
+  padding: 15px 0; /* Space between items */
+  background-color: transparent; /* No background for items */
+}
+
+.collapse img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 15px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+}
