@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
         <loc>https://parohia-ortodoxa-carlisle.co.uk/</loc>
-        <lastmod>2025-1-3</lastmod>
+        <lastmod>2025-01-04</lastmod>
         <priority>0.8</priority>
     </url>
 
@@ -11,28 +11,28 @@
         <loc>https://parohia-ortodoxa-carlisle.co.uk/en/index.html</loc>
         <xhtml:link rel="alternate" hreflang="en" href="https://parohia-ortodoxa-carlisle.co.uk/en/index.html" />
         <xhtml:link rel="canonical" hreflang="ro" href="https://parohia-ortodoxa-carlisle.co.uk/ro/index.html" />
-        <lastmod>2025-1-3</lastmod>
+        <lastmod>2025-01-04</lastmod>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://parohia-ortodoxa-carlisle.co.uk/en/about.html</loc>
         <xhtml:link rel="alternate" hreflang="en" href="https://parohia-ortodoxa-carlisle.co.uk/en/about.html" />
         <xhtml:link rel="canonical" hreflang="ro" href="https://parohia-ortodoxa-carlisle.co.uk/ro/about.html" />
-        <lastmod>2025-1-3</lastmod>
+        <lastmod>2025-01-04</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://parohia-ortodoxa-carlisle.co.uk/en/services.html</loc>
         <xhtml:link rel="alternate" hreflang="en" href="https://parohia-ortodoxa-carlisle.co.uk/en/services.html" />
         <xhtml:link rel="canonical" hreflang="ro" href="https://parohia-ortodoxa-carlisle.co.uk/ro/services.html" />
-        <lastmod>2025-1-3</lastmod>
+        <lastmod>2025-01-04</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://parohia-ortodoxa-carlisle.co.uk/en/contact.html</loc>
         <xhtml:link rel="alternate" hreflang="en" href="https://parohia-ortodoxa-carlisle.co.uk/en/contact.html" />
         <xhtml:link rel="canonical" hreflang="ro" href="https://parohia-ortodoxa-carlisle.co.uk/ro/contact.html" />
-        <lastmod>2025-1-3</lastmod>
+        <lastmod>2025-01-04</lastmod>
         <priority>0.7</priority>
     </url>
 
@@ -41,34 +41,34 @@
         <loc>https://parohia-ortodoxa-carlisle.co.uk/ro/index.html</loc>
         <xhtml:link rel="alternate" hreflang="en" href="https://parohia-ortodoxa-carlisle.co.uk/en/index.html" />
         <xhtml:link rel="canonical" hreflang="ro" href="https://parohia-ortodoxa-carlisle.co.uk/ro/index.html" />
-        <lastmod>2025-1-3</lastmod>
+        <lastmod>2025-01-04</lastmod>
         <priority>1.0</priority>
     </url>
     <url>
         <loc>https://parohia-ortodoxa-carlisle.co.uk/ro/about.html</loc>
         <xhtml:link rel="alternate" hreflang="en" href="https://parohia-ortodoxa-carlisle.co.uk/en/about.html" />
         <xhtml:link rel="canonical" hreflang="ro" href="https://parohia-ortodoxa-carlisle.co.uk/ro/about.html" />
-        <lastmod>2025-1-3</lastmod>
+        <lastmod>2025-01-04</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://parohia-ortodoxa-carlisle.co.uk/ro/services.html</loc>
         <xhtml:link rel="alternate" hreflang="en" href="https://parohia-ortodoxa-carlisle.co.uk/en/services.html" />
         <xhtml:link rel="canonical" hreflang="ro" href="https://parohia-ortodoxa-carlisle.co.uk/ro/services.html" />
-        <lastmod>2025-1-3</lastmod>
+        <lastmod>2025-01-04</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://parohia-ortodoxa-carlisle.co.uk/ro/contact.html</loc>
         <xhtml:link rel="alternate" hreflang="en" href="https://parohia-ortodoxa-carlisle.co.uk/en/contact.html" />
         <xhtml:link rel="canonical" hreflang="ro" href="https://parohia-ortodoxa-carlisle.co.uk/ro/contact.html" />
-        <lastmod>2025-1-3</lastmod>
+        <lastmod>2025-01-04</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://parohia-ortodoxa-carlisle.co.uk/ro/calendar.html</loc>
         <xhtml:link rel="canonical" hreflang="ro" href="https://parohia-ortodoxa-carlisle.co.uk/ro/calendar.html" />
-        <lastmod>2025-1-3</lastmod>
+        <lastmod>2025-01-04</lastmod>
         <priority>0.8</priority>
     </url>
 </urlset>
